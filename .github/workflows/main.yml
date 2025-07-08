@@ -21,7 +21,7 @@ steps:
       pip install unittest
     -name: test with unittest
     run: |
-    python-m unittest discover -v
+      python -m unittest discover -v
 
 
     
